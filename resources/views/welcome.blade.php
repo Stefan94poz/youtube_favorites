@@ -19,10 +19,7 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
-        <script src="{{ asset('js/app.js') }}" defer></script>
-
     </head>
-    <body>
-        <div id="example"></div>
-    </body>        
+    <body class="antialiased">
+        @yield('content')
 </html>
